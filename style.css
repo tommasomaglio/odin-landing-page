@@ -5,6 +5,7 @@
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 0;
 }
 
 ul {
@@ -13,29 +14,41 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
+    background-color: #1f2937;
+    border: none;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    background-color: #1f2937;
 }
 
 .header {
     font-size: 24px;
     font-weight: bold;
     padding-left: 100px;
+    background-color: #1f2937;
 }
 
 
 * {
-    background-color: #1f2937;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 .leftlink {
   display: flex;
   align-items: center;
   margin-right: 20px;
+    list-style-type: none;
+    display: flex;
+
+    padding: 0;
+    gap: 16px;
+    background-color: #1f2937;
 }
 
 .maintitle {
@@ -44,18 +57,21 @@ a {
     font-weight: 900;
     display: flex;
     width: 70%;
+    background-color: #1f2937;
 }
 
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
     width: 65%;
+    background-color: #1f2937;
 }
 
 .maintx {
     background-color: #1f2937;
     padding-left: 100px;
-    margin-top: 30px;
+    margin-top: 0px;
+    
 }
 
 .imgpl {
@@ -68,13 +84,17 @@ a {
     height: 250px;
     align-items: center;
     margin-right: 20px;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .mainsec {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    padding-top: 60px;
+    margin-top: 0;
+    background-color: #1f2937;
+    padding-bottom: 60px;
+
 }
 
 button {
@@ -85,7 +105,43 @@ button {
     padding-right: 20px;
     border-radius: 8px;
     border: none;
-    margin-top: 5px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
+.inhe {
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
 
+.allinfolist {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    
+}
+
+.info {
+    max-width: 170px;
+    text-align: center;
+    background-color: white;
+}
+
+img {
+  background-color: white;
+}
+
+.insec {
+    background-color: white;
+    padding-bottom: 50px;
+}
