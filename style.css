@@ -97,7 +97,7 @@ a {
 
 }
 
-button {
+.bone {
     color: white;
     background-color: #3882f6;
     padding: 5px;
@@ -127,6 +127,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 30px;
     
     
 }
@@ -141,7 +142,92 @@ img {
   background-color: white;
 }
 
-.insec {
-    background-color: white;
+
+.quote {
+    font-family: 'Light Italic';
+    font-size: 36px;
+    color: hsl(215, 28%, 17%);
+    background-color: #e5e7eb;
+   font-style: italic;
+   padding-top: 60px;
+   width: 60%;
+}
+
+.qbc {
+    background-color: #e5e7eb;
+   display: flex;
+   justify-content: center;
+}
+
+.qcl {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    margin-right: 255px;
+    background-color: #e5e7eb;
+}
+
+.bcqcl {
+    background-color: #e5e7eb;
+    padding-bottom: 30px;
+}
+
+.sub {
+    border-radius: 8px;
+    background-color: #3882f6;
+    outline: 2px solid white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+.cta {
+    display: flex;
     padding-bottom: 50px;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    width: 75%;
+    border-radius: 8px;
+    
+}
+
+.txto,
+.txtw {
+    background-color: #3882f6;
+}
+
+.bothtxt {
+    margin-right: 100px;
+}
+
+.txto {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.txtw {
+    font-size: 15px;
+    color: #e5e7eb;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
